@@ -1,5 +1,7 @@
 package com.javaprogram;
 
+import java.util.*;
+
 public class Practice {
     // Primitive Data Types
     boolean b;
@@ -27,6 +29,18 @@ public class Practice {
         System.out.println("Default value of Long     : " + demo.l);
         System.out.println("Default value of Float    : " + demo.f);
         System.out.println("Default value of Double   : " + demo.d);
+
+        // To Check Two String Equal Or Not
+        Scanner a = new Scanner(System.in);
+        System.out.println("Enter the First String: ");
+        String s1 = a.nextLine();
+        System.out.println("Enter the First String: ");
+        String s2 = a.nextLine();
+        if (s1.compareTo(s2) == 0) {
+            System.out.println("Given String Are Equal");
+        } else {
+            System.err.println("Given String Are Not Equal");
+        }
 
     }
 }
