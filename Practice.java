@@ -55,5 +55,10 @@ public class Practice {
         }
         System.out.println("Sum = " + sum);
         System.out.println("Number of invalid integers = " + count);
+
+        // Command Line Argument For Displaying Name
+
+        for (int i = 0; i < args.length; i++)
+            System.out.print(args[i]);
     }
 }
